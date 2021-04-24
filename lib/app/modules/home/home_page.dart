@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:kirby/app/core/components/characters/kirby/kirby.dart';
 
 import '../../core/components/characters/mario/mario.dart';
 import '../../core/constants/colors.dart';
@@ -75,6 +76,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
                   isTop: controller.isTop,
                   isOver: controller.isOver,
                 ),
+                Kirby(),
               ],
             ),
           ),
