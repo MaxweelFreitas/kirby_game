@@ -27,6 +27,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/sprites/kirby/
+    - assets/sprites/kirby/float/
+    - assets/sprites/kirby/walk/
     - assets/sprites/stairs/
     - assets/sprites/walk/
 
